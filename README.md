@@ -70,6 +70,28 @@ API ini dapat diakses secara publik melalui URL berikut:
 
 ---
 
+## 🛠️ Panduan Menguji API (Menggunakan Postman)
+
+Anda dapat menguji API ini menggunakan aplikasi seperti **Postman** atau **Thunder Client**. Berikut adalah langkah-langkah umumnya:
+
+1. **Siapkan URL Target**
+   - Jika menguji secara lokal, gunakan: `http://localhost:3000`
+   - Jika menguji dari Vercel, gunakan base URL Vercel Anda, contoh: `https://<URL-VERCEL-ANDA>.vercel.app`
+2. **Pilih HTTP Method yang Sesuai**
+   - `GET` : Mengambil data.
+   - `POST` : Menambah data baru.
+   - `PUT` : Mengubah data yang sudah ada.
+   - `DELETE` : Menghapus data.
+3. **Pilih Endpoint yang Tepat**
+   - Untuk melakukan Create/Read All, arahkan URL ke `/loans` (Contoh: `POST https://.../loans`). Jangan melakukan `POST` ke `/` karena akan menghasilkan pesan error `Cannot POST /`.
+   - Untuk Update/Delete, tambahkan ID di belakangnya (Contoh: `PUT https://.../loans/:id`).
+4. **Isi Body Request (Bila Berlaku)**
+   - Saat menggunakan method `POST` dan `PUT`, pindah ke tab **Body** di Postman.
+   - Pilih tipe data **raw** dan ubah formatnya dari Text menjadi **JSON**.
+   - Ketikkan data JSON yang valid sesuai kebutuhan tabel Anda.
+5. **Kirim (Send)**
+   - Tekan **Send** dan lihat respon HTTP Status Code dan response data di panel bawah.
+
 ## 📖 Contoh Request dan Response
 
 ### 1. Create (Tambah Data Peminjaman)
