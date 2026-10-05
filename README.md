@@ -66,7 +66,7 @@ Database menggunakan Supabase (PostgreSQL). Berikut adalah struktur tabel `loans
 ## 🌐 Link Hasil Deployment Vercel
 
 API ini dapat diakses secara publik melalui URL berikut:
-**[https://<URL-VERCEL-ANDA>.vercel.app](https://<URL-VERCEL-ANDA>.vercel.app)** *(Silakan ganti URL ini setelah deploy)*
+**[https://responsippbmod1-ten.vercel.app](https://responsippbmod1-ten.vercel.app)**
 
 ---
 
@@ -76,7 +76,7 @@ Anda dapat menguji API ini menggunakan aplikasi seperti **Postman** atau **Thund
 
 1. **Siapkan URL Target**
    - Jika menguji secara lokal, gunakan: `http://localhost:3000`
-   - Jika menguji dari Vercel, gunakan base URL Vercel Anda, contoh: `https://<URL-VERCEL-ANDA>.vercel.app`
+   - Jika menguji dari Vercel, gunakan base URL Vercel berikut: `https://responsippbmod1-ten.vercel.app`
 2. **Pilih HTTP Method yang Sesuai**
    - `GET` : Mengambil data.
    - `POST` : Menambah data baru.
