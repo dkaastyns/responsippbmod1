@@ -1,5 +1,11 @@
 # REST API Pencatatan Peminjaman Buku Perpustakaan
 
+**Dikembangkan oleh:**
+- **Nama**: Ahmad Dika Styansah
+- **NIM**: 21120124130052
+- **Kelompok**: Kelompok 23
+- **Shift**: Shift 04
+
 Proyek ini adalah REST API sederhana yang dibangun menggunakan **Node.js**, **Express.js**, dan **Supabase**. API ini ditujukan untuk layanan pencatatan peminjaman buku perpustakaan sebagai bagian dari Responsi PPB 2026.
 
 ## 📝 Deskripsi Umum & Tujuan Proyek

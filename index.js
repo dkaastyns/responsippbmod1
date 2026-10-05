@@ -11,7 +11,17 @@ app.use(express.json());
 
 // Root endpoint
 app.get('/', (req, res) => {
-  res.json({ message: 'Selamat datang di API Pencatatan Peminjaman Buku Perpustakaan' });
+  res.json({
+    message: '📚 Selamat datang di API Pencatatan Peminjaman Buku Perpustakaan 📚',
+    developer: {
+      nama: 'Ahmad Dika Styansah',
+      nim: '21120124130052',
+      kelompok: 'Kelompok 23',
+      shift: 'Shift 04'
+    },
+    version: '1.0.0',
+    description: 'REST API untuk layanan pencatatan peminjaman buku perpustakaan.'
+  });
 });
 
 // 1. Create - Tambah data peminjaman buku
